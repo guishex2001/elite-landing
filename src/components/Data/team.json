@@ -2,24 +2,38 @@
     "team":
     [
         {
-            "title": "CEO and Founder",
-            "name": "John Smith",
-            "description": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+            "title": "CEO",
+            "name": "Juan Vargiu",
+            "description": "Fundador, Experto en marketing digital y ventas +5 años de EXP",
             "profile": "/team/c1.png",
             "link": "/"
         },
         {
-            "title": "Director of Operations",
-            "name": "Jane Doe",
-            "description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+            "title": "Influencer y Conductora",
+            "name": "Lucía Acosta",
+            "description": "Experta en comunicación, Copywriting y logistica +5 años de EXP",
             "profile": "/team/c2.png",
             "link": "/"
         },
         {
-            "title": "Senior SEO Specialist",
-            "name": "Michael Brown",
-            "description": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+            "title": "Filmaker",
+            "name": "Ignacio Baigorria",
+            "description": "Experto en dirección de producción audiovisual +5 años de EXP. ",
             "profile": "/team/c3.png",
+            "link": "/"
+        },
+        {
+            "title": "Editor y animador",
+            "name": "Julian Abellán",
+            "description": "Experto en edición y animación +2 años EXP con la suite de Adobe. ",
+            "profile": "/team/c4.png",
+            "link": "/"
+        },
+        {
+            "title": "Desarrollador Web",
+            "name": "Guillermo García",
+            "description": "Programador WEB FullStack con +2 años de EXP ",
+            "profile": "/team/c5.png",
             "link": "/"
         }
 
@@ -27,28 +41,16 @@
     "process":
     [
         {
-            "label": "Consultation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "label": "Planificación Estratégica",
+            "content": "En esta etapa inicial, trabajamos estrechamente con nuestros clientes para entender sus necesidades, objetivos y público objetivo. Estudiamos cuidadosamente la planificación para cada cliente, definiendo los mensajes clave y los objetivos de cada campaña. Planificamos los planos y tomas para cada reel, proporcionamos los equipos fotográficos y videográficos necesarios, y organizamos el calendario de visitas a cada cliente con una semana de antelación para asegurar una logística impecable."
         },
         {
-            "label": "Research",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "label": "Producción Audiovisual",
+            "content": "Con la planificación en mano, pasamos a la producción. Aquí, nuestro equipo utiliza los mejores equipos de iluminación y sonido para asegurar la máxima calidad. Nos encargamos de la creación del contenido visual, ya sea a través de fotografía o video, y de proporcionar todos los elementos necesarios, como carteles o elementos de cocina específicos, según el proyecto. Organizamos visitas a las producciones, coordinamos horarios y fechas, y recolectamos todo el material audiovisual necesario."
         },
         {
-            "label": "Implementation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Optimization",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Reporting",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Improvement",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "label": "Edición y Distribución",
+            "content": "La última fase del proceso es la edición y distribución del contenido. Nuestro equipo de edición se encarga de pre-editar el material y enviarlo en tiempo y forma a través de Slack para que el equipo de edición pueda trabajar en ello. Realizamos correcciones, organizamos las tomas y nos aseguramos de que el contenido esté listo para ser publicado. Además, ofrecemos servicios de creación de animaciones de logos y edición final en 1080p Full HD a 30 cuadros por segundo."
         }
     ]
 }
