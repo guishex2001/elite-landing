@@ -41,3 +41,7 @@
 }
 
 
+.text-lime {
+  --tw-text-opacity: 1;
+  color: rgb(179 179 179);
+}
