@@ -45,3 +45,7 @@
   --tw-text-opacity: 1;
   color: rgb(179 179 179);
 }
+
+.border-lime {
+  border-color: rgb(179 179 179);
+}
