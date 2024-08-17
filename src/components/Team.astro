@@ -5,6 +5,8 @@ import teamData from './Data/team.json';
 import Collapse from "./Collapse.astro";
 
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 <Container>
     <div class="relative flex flex-col items-center md:flex-row">
         <Topic title="Proceso" description=""/>
@@ -42,8 +44,8 @@ import Collapse from "./Collapse.astro";
                             <div class="text-xl font-medium">{name}</div>
                         </div>
                     </div>
-                    <a class="top-0 right-0" href={link}>
-                        <img src="/team/lng.svg" alt="vector"/>
+                    <a class="top-0 right-0" href={link} target="_blank">
+                        <i class="fa-brands fa-instagram text-xl"></i>
                     </a>
                 </div>
                 <hr class="w-full border border-black"/>
@@ -54,5 +56,6 @@ import Collapse from "./Collapse.astro";
         }
         </div>
     </div>
+    
     
     </Container>
