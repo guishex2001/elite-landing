@@ -3,20 +3,26 @@ import Container from "./Container.astro";
 
 const year = new Date().getFullYear();
 ---
-<footer class="bg-lime bg-fixed bg-bottom text-black">
-    <Container>
-    <div class="py-6">
-        <div class="flex flex-col items-center justify-between md:flex-row">
-            <div class="flex items-center space-x-3 rtl:space-x-reverse">
-                <!-- Aumenté el tamaño del logo -->
-                <img class="w-20 h-auto" src="/Logo2.svg" alt="Logo">
-            </div>
-            <div class="flex mt-4 md:m-0">
-                <div class="-mx-4">
-                    © {year} Elite | Made with <a href="https://github.com/guishex2001" target="_blank" rel="noopener noreferrer" class="underline">Guishex2001</a>
-                </div>
-            </div>
+<footer class="bg-gray-800 text-black">
+  <Container>
+    <div class="py-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        <!-- Logo -->
+        <div class="flex items-center justify-center md:justify-start mb-4 md:mb-0">
+          <img class="w-24 h-auto" src="/Logo2.svg" alt="Logo">
         </div>
+        <!-- Información de contacto -->
+        <div>
+          <p><strong>Dirección:</strong> Sarmiento 717, Catamarca, Argentina</p>
+          <p><strong>Celular:</strong> <a href="tel:+5493834932685" class="underline text-lime-500 hover:text-lime-400">+54 9 3834 932685</a></p>
+          <p><strong>Email:</strong> <a href="mailto:contacto@elite.com" class="underline text-lime-500 hover:text-lime-400">contacto@elite.com</a></p>
+        </div>
+        <!-- Derechos de autor -->
+        <div class="flex flex-col items-center md:items-end">
+          <p>© {year} Elite</p>
+          <p>Made with <a href="https://github.com/guishex2001" target="_blank" rel="noopener noreferrer" class="underline text-lime-500 hover:text-lime-400">Guishex2001</a></p>
+        </div>
+      </div>
     </div>
-    </Container>
+  </Container>
 </footer>
