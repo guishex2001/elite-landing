@@ -6,54 +6,53 @@ import Collapse from "./Collapse.astro";
 
 ---
 <Container>
-<div class="relative flex flex-col items-center md:flex-row">
-    <Topic title="Proceso" description=""/>
-</div>
-
-<div class="my-6">
-    <div class="space-y-10">
-        {
-        teamData.process.map((process, key) => (
-            <Collapse label={process.label} index={key + 1}>
-            {process.content}
-            </Collapse>
-        ))
-        }
+    <div class="relative flex flex-col items-center md:flex-row">
+        <Topic title="Proceso" description=""/>
     </div>
-</div>
-
-<div class="relative flex flex-col items-center md:flex-row pt-6">
-    <Topic title="Team" description="Conocé al equipo capacitado y experimentado detrás de nuestras exitosas estrategias de Elite marketing digital."/>
-</div>
-
-<div class="flex-row items-center py-5" id="team">
-    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4">
-    {
-    teamData.team.map(({ title, description, name, link, profile} ) => (
-    <div class="h-[331px] px-[35px] py-10 bg-white rounded-[45px] shadow-card border border-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex text-black">
-        <div class="flex-col justify-start items-start gap-7 flex">
-            <div class="self-stretch justify-start items-start inline-flex">
-                <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
-                    <div class="h-[102.82px] left-0 top-0 relative">
-                        <img src={profile} alt={name}/>
-                    </div>
-                    <div class="flex-col justify-end items-start inline-flex">
-                        <div class="text-lg font-normal">{title}</div>
-                        <div class="text-xl font-medium">{name}</div>
-                    </div>
-                </div>
-                <a class="top-0 right-0" href={link}>
-                    <img src="/team/lng.svg" alt="vector"/>
-                </a>
-            </div>
-            <hr class="w-full border border-black"/>
-            <p class="text-sm md:text-lg">{description}</p>
+    
+    <div class="my-6">
+        <div class="space-y-10">
+            {
+            teamData.process.map((process, key) => (
+                <Collapse label={process.label} index={key + 1}>
+                {process.content}
+                </Collapse>
+            ))
+            }
         </div>
     </div>
-    ))
-    }
+    
+    <div class="relative flex flex-col items-center md:flex-row pt-6">
+        <Topic title="Team" description="Conocé al equipo capacitado y experimentado detrás de nuestras exitosas estrategias de Elite marketing digital."/>
     </div>
-</div>
-
-
-</Container>
+    
+    <div class="flex-row items-center py-5" id="team">
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4">
+        {
+        teamData.team.map(({ title, description, name, link, profile} ) => (
+        <div class="h-[331px] px-[35px] py-10 bg-white rounded-[45px] shadow-card border border-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex text-black">
+            <div class="flex-col justify-start items-start gap-7 flex">
+                <div class="self-stretch justify-start items-start inline-flex">
+                    <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
+                        <div class="h-[102.82px] left-0 top-0 relative">
+                            <img class="team-img" src={profile} alt={name}/>
+                        </div>
+                        <div class="flex-col justify-end items-start inline-flex">
+                            <div class="text-lg font-normal">{title}</div>
+                            <div class="text-xl font-medium">{name}</div>
+                        </div>
+                    </div>
+                    <a class="top-0 right-0" href={link}>
+                        <img src="/team/lng.svg" alt="vector"/>
+                    </a>
+                </div>
+                <hr class="w-full border border-black"/>
+                <p class="text-sm md:text-lg">{description}</p>
+            </div>
+        </div>
+        ))
+        }
+        </div>
+    </div>
+    
+    </Container>

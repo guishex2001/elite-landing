@@ -49,3 +49,16 @@
 .border-lime {
   border-color: rgb(179 179 179);
 }
+
+.team-img {
+  width: 100px; /* Ajusta este tamaño según prefieras */
+  height: 100px; /* Ajusta este tamaño según prefieras */
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  border-radius: 25%; /* Este valor hace que los bordes sean completamente redondeados */
+  object-fit: cover; /* Asegura que la imagen cubra toda el área disponible */
+}
+
+.team-img:hover {
+  filter: grayscale(0%);
+}
