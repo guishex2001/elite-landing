@@ -1,4 +1,7 @@
-import Container from "./Container.astro"
+---
+import Container from "./Container.astro";
+
+const year = new Date().getFullYear();
 ---
 <footer class="bg-lime bg-fixed bg-bottom text-black">
     <Container>
@@ -10,15 +13,10 @@ import Container from "./Container.astro"
             </div>
             <div class="flex mt-4 md:m-0">
                 <div class="-mx-4">
-                    @ <span id="currentYear"></span> Elite | Made with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" class="underline">Guishex2001</a>
+                    © {year} Elite | Made with <a href="https://github.com/guishex2001" target="_blank" rel="noopener noreferrer" class="underline">Guishex2001</a>
                 </div>
             </div>
         </div>
     </div>
     </Container>
 </footer>
-
-<script is:inline>
-    const year = new Date().getFullYear();
-    document.getElementById("currentYear").innerHTML = `${year}`;
-</script>
