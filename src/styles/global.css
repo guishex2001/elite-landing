@@ -33,7 +33,7 @@
 
 .bg-lime {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 184 16);
+  background-color: rgb(179 179 179);
 }
 
 .h-8 {
@@ -43,11 +43,11 @@
 
 .text-lime {
   --tw-text-opacity: 1;
-  color: rgb(239 184 16);
+  color: rgb(179 179 179);
 }
 
 .border-lime {
-  border-color: rgb(239 184 16);
+  border-color: rgb(179 179 179);
 }
 
 .team-img {
