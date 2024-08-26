@@ -41,16 +41,16 @@
     "process":
     [
         {
-            "label": "Planificación Estratégica",
-            "content": "En esta etapa inicial, trabajamos estrechamente con nuestros clientes para entender sus necesidades, objetivos y público objetivo. Estudiamos cuidadosamente la planificación para cada cliente, definiendo los mensajes clave y los objetivos de cada campaña. Planificamos los planos y tomas para cada reel, proporcionamos los equipos fotográficos y videográficos necesarios, y organizamos el calendario de visitas a cada cliente con una semana de antelación para asegurar una logística impecable."
+            "label": "Planificamos el QUÉ",
+            "content": "Una vez que nos contactan, nos abocamos a entender qué necesitas comunicar de tu negocio o marca. Es un proceso de escucha y entendimiento de las necesidades, los objetivos del cliente, y sobre todo A QUIÉN le querés hablar. Una vez resuelto, nos ponemos a planificar las piezas de contenido según el Plan elegido. Cuando la planificación tiene el OK del cliente, organizamos el calendario de grabación con una semana de antelación para asegurar una logística impecable."
         },
         {
-            "label": "Producción Audiovisual",
-            "content": "Con la planificación en mano, pasamos a la producción. Aquí, nuestro equipo utiliza los mejores equipos de iluminación y sonido para asegurar la máxima calidad. Nos encargamos de la creación del contenido visual, ya sea a través de fotografía o video, y de proporcionar todos los elementos necesarios, como carteles o elementos de cocina específicos, según el proyecto. Organizamos visitas a las producciones, coordinamos horarios y fechas, y recolectamos todo el material audiovisual necesario."
+            "label": "Hora de grabar",
+            "content": "Con la planificación en mano, pasamos a la producción. Con el mejor equipo de cámaras, iluminación y sonido, nos aseguramos de capturar lo que necesitamos con la máxima calidad posible. Nos encargamos de contar con todos los elementos necesarios para el día de producción, según el proyecto. Son jornadas de aproximadamente 4 horas en la que nos abocamos a crear el contenido visual planificado, ya sea a través de fotografía o video."
         },
         {
-            "label": "Edición y Distribución",
-            "content": "La última fase del proceso es la edición y distribución del contenido. Nuestro equipo de edición se encarga de pre-editar el material y enviarlo en tiempo y forma a través de Slack para que el equipo de edición pueda trabajar en ello. Realizamos correcciones, organizamos las tomas y nos aseguramos de que el contenido esté listo para ser publicado. Además, ofrecemos servicios de creación de animaciones de logos y edición final en 1080p Full HD a 30 cuadros por segundo."
+            "label": "Se cocina y distribuye",
+            "content": "La última fase del proceso es la edición y distribución del contenido. El material se pre-edita y se envía a través de Slack para que el equipo de edición pueda terminar de darle forma. Realizamos correcciones, organizamos las tomas y nos aseguramos de que el contenido quede listo. Eso incluye creación de animaciones de logos y edición final en calidad premium 1080p Full HD a 30 cuadros por segundo. El material ya editado está listo para publicar con su respectivo copy, previamente redactado y calendarizado en nuestra carpeta de Notion."
         }
     ]
 }
