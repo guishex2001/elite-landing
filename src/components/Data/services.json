@@ -1,14 +1,5 @@
 [
     {
-        "id": 1,
-        "name1": "Desarrollo Web",
-        "name2": "Y optimización de SEO",
-        "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
-        "arrow": "./services/ag.svg",
-        "link": "https://www.elitemarketingdigital.com.ar/blogs/1",
-        "image": "./services/01.svg"
-    },
-    {
         "id": 2,
         "name1": "Social Media",
         "name2": "Manager",
@@ -18,24 +9,6 @@
         "image": "./services/02.svg"
     },
     {
-        "id": 3,
-        "name1": "Commmunity",
-        "name2": "Manager",
-        "background": "h-[310px] p-12 bg-black rounded-[45px] shadow-card border border-black justify-between items-center flex text-white",
-        "arrow": "./services/aw.svg",
-        "link": "https://www.elitemarketingdigital.com.ar/blogs/3",
-        "image": "./services/03.svg"
-    },
-    {
-        "id": 4,
-        "name1": "Análisis",
-        "name2": "Mensuales",
-        "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
-        "arrow": "./services/ag.svg",
-        "link": "https://www.elitemarketingdigital.com.ar/blogs/4",
-        "image": "./services/04.svg"
-    },
-    {
         "id": 5,
         "name1": "Creación",
         "name2": "De contenido",
@@ -43,6 +16,28 @@
         "arrow": "./services/ag.svg",
         "link": "https://www.elitemarketingdigital.com.ar/blogs/5",
         "image": "./services/05.svg"
+    },
+
+    {
+        "id": 4,
+        "name1": "Cobertura de",
+        "name2": "Eventos",
+        "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
+        "arrow": "./services/ag.svg",
+        "link": "https://www.elitemarketingdigital.com.ar/blogs/4",
+        "image": "./services/04.svg"
+    },
+    {
+        "id": 1,
+        "name1": "Desarrollo Web",
+        "name2": "Y optimización de SEO",
+        "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
+        "arrow": "./services/ag.svg",
+        "link": "https://www.elitemarketingdigital.com.ar/blogs/1",
+        "image": "./services/01.svg"
     }
+
+  
+   
 
 ]
