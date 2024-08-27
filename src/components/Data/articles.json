@@ -30,15 +30,15 @@
     "authorImage": "https://www.elitemarketingdigital.com.ar/team/c1.png"
   },
   {
-    "id": 4,
-    "type": "Artículo",
-    "title": "Análisis Mensuales: Mide el impacto de tu estrategia",
-    "publish_date": "5 days ago",
-    "brief": "El análisis mensual es crucial para entender el rendimiento de tus campañas digitales. Descubre cómo nuestros informes detallados pueden guiar el crecimiento de tu negocio.",
-    "description": "El análisis mensual de tus actividades de marketing digital es fundamental para medir su efectividad y hacer los ajustes necesarios. En Elite, proporcionamos informes detallados que te permiten ver el progreso de tus campañas, identificar áreas de mejora y tomar decisiones informadas para futuras estrategias. Con un enfoque basado en datos, aseguramos que cada paso que das en el mundo digital esté alineado con tus objetivos de negocio.",
-    "author": "Ignacio Baigorria",
-    "authorImage": "https://www.elitemarketingdigital.com.ar/team/c3.png"
-  },
+  "id": 4,
+  "type": "Artículo",
+  "title": "Cobertura de Eventos: Captura cada momento importante",
+  "publish_date": "5 days ago",
+  "brief": "La cobertura de eventos es esencial para inmortalizar momentos clave y compartirlos con tu audiencia. Descubre cómo nuestro equipo puede ayudarte a capturar la esencia de cada ocasión.",
+  "description": "En Elite, entendemos que cada evento es único y merece ser recordado de la mejor manera. Ofrecemos un servicio completo de cobertura de eventos, donde nuestro equipo de expertos se encarga de capturar cada momento importante a través de fotos y videos de alta calidad. Desde la planificación hasta la edición final, nos aseguramos de que los momentos más destacados de tu evento sean inmortalizados y presentados de manera profesional, listos para ser compartidos en redes sociales o utilizados en futuras estrategias de marketing.",
+  "author": "Ignacio Baigorria",
+  "authorImage": "https://www.elitemarketingdigital.com.ar/team/c3.png"
+},
   {
     "id": 5,
     "type": "Artículo",
