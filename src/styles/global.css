@@ -69,9 +69,13 @@
     color: black; /* Asegúrate de que el texto sea negro por defecto */
 }
 
+.sm\:text-6xl {
+    transition: color 0.3s ease; /* Transición suave para entrada y salida */
+}
+
 .sm\:text-6xl:hover {
     color: rgba(179, 149, 60, 0.8); /* Color dorado con transparencia */
-    transition: color 0.3s ease; /* Transición suave de 0.3 segundos */
 }
+
 
 
