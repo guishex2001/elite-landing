@@ -70,12 +70,14 @@
 }
 
 .sm\:text-6xl,
-.text-xl.font-medium {
+.text-xl.font-medium,
+.text-xl.font-normal.leading-7 {
     transition: color 0.3s ease; /* Transición suave para entrada y salida */
 }
 
 .sm\:text-6xl:hover,
-.text-xl.font-medium:hover {
+.text-xl.font-medium:hover,
+.text-xl.font-normal.leading-7:hover {
     color: rgba(179, 149, 60, 0.8); /* Color dorado con transparencia */
 }
 
