@@ -32,8 +32,8 @@
 }
 
 .bg-lime {
-  --tw-bg-opacity: 1;
-  background-color: rgb(179 179 179);
+    --tw-bg-opacity: 1;
+    background-color: #b3b3b300;
 }
 
 .h-8 {
