@@ -62,3 +62,14 @@
 .team-img:hover {
   filter: grayscale(0%);
 }
+
+.sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+    color: black; /* Asegúrate de que el texto sea negro por defecto */
+}
+
+.sm\:text-6xl:hover {
+    color: #FFD700; /* Cambia el color a dorado cuando pases el cursor */
+}
+
