@@ -70,6 +70,8 @@
 }
 
 .sm\:text-6xl:hover {
-    color: #b3953c; /* Cambia el color a dorado cuando pases el cursor */
+    color: rgba(179, 149, 60, 0.8); /* Color dorado con transparencia */
+    transition: color 0.3s ease; /* Transición suave de 0.3 segundos */
 }
+
 
